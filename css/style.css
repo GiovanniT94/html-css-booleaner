@@ -35,6 +35,7 @@ header {
 
 .tabella1{
     background-color: lightskyblue;
+    
 }
 
 .tabella2 {
@@ -42,19 +43,19 @@ header {
 }
 
 .colonna1 {
-    width: 30%;
+    width: 33%;
     text-align: center;
     font-weight: bold;
 }
 
 .colonna2 {
-    width: 30%;
+    width: 33%;
     text-align: center;
     font-weight: bold;
 }
 
 .colonna3 {
-    width: 30%;
+    width: 33%;
     text-align: center;
     font-weight: bold;
 }
@@ -65,12 +66,17 @@ header {
 }
 
 .lorem1 {
+    margin: 0px;
     background-image: url(../graph.png);
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+    font-size: 140%;
+    font-weight: normal;
+    text-align: center;
 }
 
 .lorem2 {
-    range: url(../monitor.png);
-
+    background-image: url(../monitor.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
     
 }
