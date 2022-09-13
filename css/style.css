@@ -1,9 +1,21 @@
-header {
-    background-image: url(../pattern.png);
-    background-repeat: repeat-x;
-    background-color: rgb(34, 156, 212);
-    height: 180px ;
+body {
+    margin: 0px;
+    padding: 0px;
 }
+
+header {
+    height: 70px ;
+    background-image: url(../pattern.png);
+    background-color: rgb(34, 156, 212);
+    background-size: 270px;
+    
+}
+
+.logo {
+    width: 250px;
+    
+}
+
 
 .testo1 {
     color: rgb(27, 201, 201);
@@ -29,6 +41,9 @@ header {
 
 }    
 
+table {
+    border-collapse: 
+}
 .tabella  {
     text-align: ;
 }
